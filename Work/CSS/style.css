@@ -58,3 +58,13 @@ button:hover {
     padding: 60px 50%;
     margin-left: 180px;
 }
+
+#none {
+    background-color: white;
+    width: 29px;
+    height: 38px;
+}
+
+img {
+    width: 351px;
+}
