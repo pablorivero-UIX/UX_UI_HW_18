@@ -2,13 +2,14 @@
 
 .logo {
     cursor: pointer;
+    width: 288px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 10%;
+    padding: 20px 10%;
 }
 
 .nav_links {
@@ -31,13 +32,13 @@ header {
 li, a, button {
     font-family: "roboto", sans-serif;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 20px;
     color: rgb(26, 26, 26);
     text-decoration: none;
 }
 
 button {
-    padding: 30px 40px;
+    padding: 10px 40px;
     background-color: rgba(47, 47, 47, 1);
     border: none;
     border-radius: 90px;
@@ -54,6 +55,6 @@ button:hover {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 10%;
-    margin-left: 700px;
+    padding: 60px 50%;
+    margin-left: 180px;
 }
