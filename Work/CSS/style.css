@@ -124,3 +124,97 @@ h4 {
 img {
     width: 351px;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+.logo {
+     cursor: pointer;
+     width: 200px;
+     margin-left: 20px;
+}
+
+.nav_links li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+li, a, button {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 40px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: antiquewhite;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(16, 110, 0);
+    font-family: "roboto", sans-serif;
+    font-size: 60px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 80px;
+}
+
+.workGrid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto;
+    grid-template-areas: none;
+    justify-content: space-evenly;
+}
+   
+.img1 {
+    
+    order: 1;
+}
+
+.img2 {
+    
+    order: 3;
+}
+
+.img3 {
+    order: 5;
+}
+
+.text1 {
+    order: 2;
+}
+
+.text2 {
+    order: 4;
+}
+
+.text3 {
+    order: 6;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-left: 6px;
+    margin-top: 50px;
+    color: black;
+    font-size: 9pt;
+}
