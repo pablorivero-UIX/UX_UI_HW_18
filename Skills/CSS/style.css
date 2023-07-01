@@ -31,7 +31,7 @@ header {
 
 li, a, button {
     font-family: "roboto", sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 20px;
     color: rgb(26, 26, 26);
     text-decoration: none;
@@ -53,6 +53,44 @@ button:hover {
 
 img {
     width: 165px;
+    margin-left: 111px;
+}
+
+h1 {
+    color: rgb(16, 110, 0);
+    font-family: "roboto", sans-serif;
+    font-size: 85px;
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 120px;
+    margin-bottom: 80px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: -300px;
+    
+}
+
+.inner {
+    width: 400px;
+    margin: 40px;
+    padding: 0px;
+}
+
+#text {
+    background-color: rgba(0, 201, 0, 0.318);
+    margin-top: 30px;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .footer a {
@@ -60,5 +98,6 @@ img {
     justify-content: center;
     align-items: center;
     padding: 60px 50%;
-    margin-left: 180px;
+    margin-left: 160px;
+    margin-top: 111px;
 }
